@@ -19,6 +19,10 @@
 11. git merge: kéo những thay đổi từ branch khác vào branch nào đó
 12. git branch -D ten-branch: xóa branch
 
+13. git reset:
+    1. --soft + id-commit: đưa commit về sa 
+    2. --mixed + id-commit: đưa commit về wd
+    3. --hard + id-commit: bỏ đi commit ***(warning)***
 ## Thuật ngữ (term)
 - working directory: những thay đổi chưa add (file màu đỏ)
 - staging area: những thay đổi đã add (file màu xanh)
