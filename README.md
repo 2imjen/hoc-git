@@ -9,6 +9,15 @@
 5. git log: xem lịch sử commit, xem id-commit 
 6. git diff: hiển thị nội dung thay đổi của file modified
 7. git show id-commit: xem commit thay đổi gì
+8. git checkout:
+    1. git checkout ten-file: bỏ thay đổi trên file chưa add
+    2. git checkout -b ten-branch: tạo và chuyển sang nhánh ten-branch
+    3. git checkout ten-branch: chuyển sang ten-branch để làm việc
+9. git reset ten-fle:
+    1. git reset HEAD ten-file: chuyển file từ ***sa -> wd***
+10. git branch: hiển thị tất cả các nhánh, nhánh chính là main
+11. git merge: kéo những thay đổi từ branch khác vào branch nào đó
+12. git branch -D ten-branch: xóa branch
 
 ## Thuật ngữ (term)
 - working directory: những thay đổi chưa add (file màu đỏ)
