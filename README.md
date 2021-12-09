@@ -28,11 +28,19 @@
 
 15. ***.gitignore***
 
-## Thuật ngữ (term)
-- ***working directory***: những thay đổi chưa add (file màu đỏ)
-- ***staging area***: những thay đổi đã add (file màu xanh)
-- ***git repository***
 
 16. ***git remote***:
     1. git remote -v
     2. git remote add origin <link-repo>
+
+17. ***git clone***
+18. ***git pull***
+
+# Pull request
+- tạo branch mới để chỉnh sửa
+- ***git push origin <branch-name>***: push branch mới tạo lên github
+
+## Thuật ngữ (term)
+- ***working directory***: những thay đổi chưa add (file màu đỏ)
+- ***staging area***: những thay đổi đã add (file màu xanh)
+- ***git repository***
