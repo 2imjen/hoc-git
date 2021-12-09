@@ -23,7 +23,16 @@
     1. --soft + id-commit: đưa commit về sa 
     2. --mixed + id-commit: đưa commit về wd
     3. --hard + id-commit: bỏ đi commit ***(warning)***
+
+14. ***git revert <commit>***: (warning) tránh dùng, tạo commit mới bỏ commit cũ nào đó
+
+15. ***.gitignore***
+
 ## Thuật ngữ (term)
 - ***working directory***: những thay đổi chưa add (file màu đỏ)
 - ***staging area***: những thay đổi đã add (file màu xanh)
 - ***git repository***
+
+16. ***git remote***:
+    1. git remote -v
+    2. git remote add origin <link-repo>
